@@ -1,5 +1,6 @@
-package tests;
-import main.UUIDCustom;
+package tests.java;
+
+import main.java.UUIDCustom;
 
 import org.junit.Assert;
 import org.junit.Test;

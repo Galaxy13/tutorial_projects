@@ -1,4 +1,4 @@
-import main.UUIDCustom;
+package main.java;
 
 import java.util.Random;
 public class Main {

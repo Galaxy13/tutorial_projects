@@ -1,9 +1,12 @@
 # Hub of tutorial Java Tasks
-1. main.UUIDCustom - class implements random **UUID** creation and predefined creation with ability to remove dashes and make
+
+1. main.java.UUIDCustom - class implements random **UUID** creation and predefined creation with ability to remove
+   dashes and make
 **UUID** uppercase:
 
 ```java
-import main.UUIDCustom;
+import main.java.UUIDCustom;
+
 import java.util.Random;
 
 UUIDCustom uuid = new UUIDCustom();
