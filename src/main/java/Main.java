@@ -7,8 +7,7 @@ public class Main {
         Random rand = new Random();
         long low = rand.nextInt();
         long high = rand.nextInt();
-        System.out.println(uuid.createRandomUUID(true, true));
-        System.out.println(uuid.createRandomUUIDIdiomatic(false, false));
-        System.out.println(uuid.createUUID(low, high, false, false));
+        System.out.println(uuid.createRandomUUID(UUIDCustom.Dashes.WithDashes, UUIDCustom.Case.UpperCase));
+        System.out.println(uuid.createUUID(low, high, UUIDCustom.Dashes.NoDashes, UUIDCustom.Case.LowerCase));
     }
 }
